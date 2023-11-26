@@ -1,0 +1,86 @@
+@font-face {
+  font-family: MyFont;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: MyFont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+}
+h1 {
+  font-size: 50px;
+}
+.card {
+  display: flex;
+  width: 800px;
+  border: solid;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  padding: 30px;
+}
+.text {
+  width: 60%;
+}
+.left {
+  width: 40%;
+}
+.left img {
+  width: 100%;
+}
+ul {
+  list-style-image: url(../assets/images/icon-list.svg);
+}
+li {
+  margin-bottom: 10px;
+}
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 10px;
+}
+input {
+  font-family: inherit;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid hsl(231, 7%, 60%);
+  outline: none;
+}
+button {
+  font-family: inherit;
+  padding: 15px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  background-color: hsl(235, 18%, 26%);
+  color: white;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+.card-2 {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.card-2 h1 {
+  font-size: 40px;
+  color: hsl(234, 29%, 20%);
+}
+
+.card-2 button {
+  width: 100%;
+}
